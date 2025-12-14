@@ -1,16 +1,82 @@
-# React + Vite
+# 📸 Instagram Clone (MERN Stack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack social media application built with the MERN stack (MongoDB, Express, React, Node.js). This project features a robust authentication system, image posting, social interactions (likes, comments, follow system), and a user profile management system.
 
-Currently, two official plugins are available:
+**🚀 Live Demo Mode:** This project currently runs with an **In-Memory Mock Database**, meaning you can clone and run it immediately without setting up a local MongoDB instance!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+-   **User Authentication**: Secure Login and Signup using JWT (JSON Web Tokens).
+-   **Create Posts**: Upload posts with image URLs and captions.
+-   **Home Feed**: View posts from all users.
+-   **Social Interactions**:
+    -   ❤️ Like / Unlike posts.
+    -   💬 Comment on posts.
+    -   👤 Follow / Unfollow users.
+-   **User Profiles**: Dynamic profile pages showing stats (posts, followers, following) and user's posts.
+-   **Responsive Design**: Clean and modern UI inspired by Instagram.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+-   **Frontend**: React (Vite), CSS3, Axios, React Router.
+-   **Backend**: Node.js, Express.js.
+-   **Database**: In-Memory JavaScript Store (Mock DB) for zero-config setup. *Easily switchable to MongoDB.*
+-   **Authentication**: JWT, Bcrypt.js.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+
+-   Node.js (v16 or higher)
+-   npm (Node Package Manager)
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/rohit-marmat04/Instagram_Clone_Project.git
+    cd Instagram_Clone_Project
+    ```
+
+2.  **Install Backend Dependencies:**
+    ```bash
+    cd backend
+    npm install
+    ```
+
+3.  **Install Frontend Dependencies:**
+    ```bash
+    cd ../frontend
+    npm install
+    ```
+
+### Running the App
+
+You need to run both the backend and frontend servers.
+
+1.  **Start the Backend Server:**
+    In the `backend` directory:
+    ```bash
+    npm run dev
+    ```
+    *Server runs on port 5000.*
+
+2.  **Start the Frontend Server:**
+    In the `frontend` directory:
+    ```bash
+    npm run dev
+    ```
+    *App runs on http://localhost:5173.*
+
+3.  **Open in Browser:**
+    Navigate to `http://localhost:5173` to see the app!
+
+## 📸 Screenshots
+
+*(Add screenshots of your app here)*
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
