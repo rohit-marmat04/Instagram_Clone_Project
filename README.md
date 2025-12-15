@@ -73,10 +73,6 @@ You need to run both the backend and frontend servers.
 3.  **Open in Browser:**
     Navigate to `http://localhost:5173` to see the app!
 
-## 📸 Screenshots
-
-*(Add screenshots of your app here)*
-
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
